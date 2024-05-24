@@ -1,10 +1,10 @@
 console.log("Hello Docker");
 
 
-console.log("Running Python code:");
-const { spawnSync } = require('child_process');
-const pythonProcess = spawnSync('python3', ['-c', 'print("Hello Docker from Python")']);
-console.log(pythonProcess.stdout.toString());
+//console.log("Running Python code:");
+//const { spawnSync } = require('child_process');
+//const pythonProcess = spawnSync('python3', ['-c', 'print("Hello Docker from Python")']);
+//console.log(pythonProcess.stdout.toString());
 
 
 
